@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,10 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ValueObjects\" />
-    <Folder Include="Rules\" />
-    <Folder Include="State\" />
-    <Folder Include="Collections\" />
+    <Folder Include="5. State\After\" />
+    <Folder Include="8. ValueObjects\" />
   </ItemGroup>
 
 </Project>
