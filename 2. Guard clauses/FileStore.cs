@@ -10,8 +10,9 @@ namespace OOP._2._Guard_clauses
     {
         public FileStore(string workingDirectory)
         {
-            //Contracts.Requires(() => !string.IsNullOrEmpty(workingDirectory), "Working directory is null");
-            //Contracts.Requires(() => Directory.Exists(workingDirectory), "Directory not found");
+            Contracts.Requires(() => !string.IsNullOrEmpty(workingDirectory), "Working directory is null");
+            Contracts.Requires(() => Directory.Exists(workingDirectory), "Directory not found");
+
             workingDirectory.AssertNotNullOrEmpty("Working directory is null");
             workingDirectory.AssertDirectoryExists("Directory not found");
 

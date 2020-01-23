@@ -27,6 +27,5 @@ namespace OOP.CQS.After
         }
 
         public string WorkingDirectory { get; private set; }
-        public string FileContent { get; set; }
     }
 }

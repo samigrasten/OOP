@@ -22,6 +22,7 @@ namespace OOP.CQS.Before
         }
 
         public string WorkingDirectory { get; set; }
+
         public string FileContent { get; set; }
     }
 }
